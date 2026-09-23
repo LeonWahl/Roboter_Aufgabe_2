@@ -11,9 +11,6 @@ Aktuell nutzt es einen festen Map, der in `src/graph_provider.cpp` und `src/path
 
 - Datenstrukturen (Graph) definiert.
 - Suchalgorithmus (A*) gebaut.
-
-**Was ist zu machen?**
-
 - 2D-Rasterkarte daran einbinden
 - Tür-Logik programmieren
 - Roboter-Bewegung von Pfadfinder in /cmd_vel übersetzen
