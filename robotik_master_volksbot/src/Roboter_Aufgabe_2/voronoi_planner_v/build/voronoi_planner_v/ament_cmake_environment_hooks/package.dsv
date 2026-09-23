@@ -1,0 +1,4 @@
+source;share/voronoi_planner_v/local_setup.bash
+source;share/voronoi_planner_v/local_setup.dsv
+source;share/voronoi_planner_v/local_setup.sh
+source;share/voronoi_planner_v/local_setup.zsh

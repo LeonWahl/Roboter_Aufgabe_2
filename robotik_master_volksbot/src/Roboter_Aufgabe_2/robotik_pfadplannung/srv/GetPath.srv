@@ -1,0 +1,8 @@
+# Schnittstelle für Robot-Controller
+string start_node_name
+string target_node_name
+---
+bool success
+geometry_msgs/Point[] waypoints_coordinates
+string[] passed_path_node_names
+

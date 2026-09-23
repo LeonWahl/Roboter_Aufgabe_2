@@ -1,0 +1,22 @@
+<?xml version="1.0"?>
+<package format="2">
+  <name>epos2_motor_controller</name>
+  <version>1.0.3</version>
+  <description>EPOS2 motor controller driver</description>
+  <maintainer email="thomas.wiemann@informatik.hs-fulda.de">Thomas Wiemann</maintainer>
+  <maintainer email="amock@uos.de">Alexander Mock</maintainer>
+  <license>LGPL</license>
+  <author email="mmorta@iri.upc.edu">Martí Morta Garriga</author>
+  <author email="jochen@sprickerhof.de">Jochen Sprickerhof</author>
+  <author email="amock@uos.de">Alexander Mock</author>
+  <buildtool_depend>ament_cmake</buildtool_depend>
+
+  <build_depend>libftdipp1-dev</build_depend>
+
+  <test_depend>ament_lint_auto</test_depend>
+  <test_depend>ament_lint_common</test_depend>
+
+  <export>
+    <build_type>ament_cmake</build_type>
+  </export>
+</package>

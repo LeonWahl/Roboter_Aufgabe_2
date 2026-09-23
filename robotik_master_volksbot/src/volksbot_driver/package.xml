@@ -1,0 +1,46 @@
+<?xml version="1.0"?>
+<?xml-model href="http://download.ros.org/schema/package_format3.xsd" schematypens="http://www.w3.org/2001/XMLSchema"?>
+<package format="3">
+  <name>volksbot_driver</name>
+  <version>1.0.3</version>
+  <description>ROS2 node for the 4- or 6-wheeled Volksbots</description>
+  <maintainer email="thomas.wiemann@informatik.hs-fulda.de">Thomas Wiemann</maintainer>
+  <maintainer email="amock@uos.de">Alexander Mock</maintainer>
+
+  <author email="amock@uos.de">Alexander Mock</author>
+  <author email="thomas.wiemann@informatik.hs-fulda.de">Thomas Wiemann</author>
+  <author email="spuetz@uos.de">Sebastian Pütz</author>
+  <author email="jochen@sprickerhof.de">Jochen Sprickerhof</author>
+  <license>BSD 3 clause</license>
+
+  <buildtool_depend>ament_cmake</buildtool_depend>
+
+  <build_depend>rclcpp</build_depend>
+  <build_depend>epos2_motor_controller</build_depend>
+  <build_depend>geometry_msgs</build_depend>
+  <build_depend>nav_msgs</build_depend>
+  <build_depend>roscpp</build_depend>
+  <build_depend>sensor_msgs</build_depend>
+  <build_depend>tf2_ros</build_depend>
+  
+
+  <exec_depend>ros2launch</exec_depend>
+  <exec_depend>teleop_twist_joy</exec_depend>
+  <exec_depend>robot_localization</exec_depend>
+  <exec_depend>phidgets_spatial</exec_depend>
+  <exec_depend>slam_toolbox</exec_depend>
+  <exec_depend>nav2_bringup</exec_depend>
+  <exec_depend>nav2_common</exec_depend>
+  <exec_depend>sllidar_ros2</exec_depend>
+  <exec_depend>sick_tim</exec_depend>
+  <exec_depend>urg_node2</exec_depend>
+  <exec_depend>robot_state_publisher</exec_depend>
+  <exec_depend>xacro</exec_depend>
+
+  <test_depend>ament_lint_auto</test_depend>
+  <test_depend>ament_lint_common</test_depend>
+
+  <export>
+    <build_type>ament_cmake</build_type>
+  </export>
+</package>

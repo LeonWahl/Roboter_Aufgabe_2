@@ -1,0 +1,7 @@
+image: meine_karte2.pgm
+mode: trinary
+resolution: 0.030
+origin: [-19.530, -41.411, 0]
+negate: 0
+occupied_thresh: 0.65
+free_thresh: 0.196
