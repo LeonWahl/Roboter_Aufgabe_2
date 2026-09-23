@@ -1,0 +1,6 @@
+# virtuelle Tür zu blockieren oder freizugeben
+string door_node_name
+bool is_open
+---
+bool success
+string message

@@ -1,0 +1,28 @@
+<?xml version="1.0"?>
+<?xml-model href="http://ros.org" schematypens="http://w3.org"?>
+<package format="3">
+  <name>voronoi_planner_v</name>
+  <version>0.0.1</version>
+  <description>Paket zur Analyse von Pfaden basierend auf Voronoi-Graphen</description>
+  <maintainer email="leon-wahl@todo.todo">Leon Wahl</maintainer>
+  <license>Apache-2.0</license>
+
+  <buildtool_depend>ament_cmake</buildtool_depend>
+
+  <!-- ROS 2 Abhängigkeiten -->
+  <depend>rclcpp</depend>
+  <depend>nav_msgs</depend>
+  <depend>geometry_msgs</depend>
+  <depend>visualization_msgs</depend>
+  
+  <!-- OpenCV Systemabhängigkeit korrekt deklariert -->
+  <depend>opencv</depend>
+
+  <!-- Nav2 Launch-Abhängigkeiten -->
+  <exec_depend>nav2_map_server</exec_depend>
+  <exec_depend>nav2_lifecycle_manager</exec_depend>
+
+  <export>
+    <build_type>ament_cmake</build_type>
+  </export>
+</package>

@@ -1,0 +1,49 @@
+-- The C compiler identification is GNU 13.3.0
+-- The CXX compiler identification is GNU 13.3.0
+-- Detecting C compiler ABI info
+-- Detecting C compiler ABI info - done
+-- Check for working C compiler: /usr/bin/cc - skipped
+-- Detecting C compile features
+-- Detecting C compile features - done
+-- Detecting CXX compiler ABI info
+-- Detecting CXX compiler ABI info - done
+-- Check for working CXX compiler: /usr/bin/c++ - skipped
+-- Detecting CXX compile features
+-- Detecting CXX compile features - done
+-- Found ament_cmake: 2.5.6 (/opt/ros/jazzy/share/ament_cmake/cmake)
+-- Found Python3: /usr/bin/python3 (found version "3.12.3") found components: Interpreter 
+-- Found rclcpp: 28.1.22 (/opt/ros/jazzy/share/rclcpp/cmake)
+-- Found rosidl_generator_c: 4.6.9 (/opt/ros/jazzy/share/rosidl_generator_c/cmake)
+-- Found rosidl_generator_cpp: 4.6.9 (/opt/ros/jazzy/share/rosidl_generator_cpp/cmake)
+-- Using all available rosidl_typesupport_c: rosidl_typesupport_fastrtps_c;rosidl_typesupport_introspection_c
+-- Using all available rosidl_typesupport_cpp: rosidl_typesupport_fastrtps_cpp;rosidl_typesupport_introspection_cpp
+-- Found rmw_implementation_cmake: 7.3.3 (/opt/ros/jazzy/share/rmw_implementation_cmake/cmake)
+-- Found rmw_cyclonedds_cpp: 2.2.4 (/opt/ros/jazzy/share/rmw_cyclonedds_cpp/cmake)
+-- Using RMW implementation 'rmw_cyclonedds_cpp' as default
+-- Found nav_msgs: 5.3.8 (/opt/ros/jazzy/share/nav_msgs/cmake)
+-- Found visualization_msgs: 5.3.8 (/opt/ros/jazzy/share/visualization_msgs/cmake)
+-- Found OpenCV: /usr (found version "4.6.0") 
+-- Configuring done (13.6s)
+-- Generating done (0.1s)
+-- Build files have been written to: /home/leon-wahl/Documents/fertige_version_von_rplidar_robo/robotik_master_volksbot/src/voronoi_planner_v/build/voronoi_planner_v
+[ 50%] [32mBuilding CXX object CMakeFiles/voronoi_planner_node.dir/src/voronoi_planner.cpp.o[0m
+[100%] [32m[1mLinking CXX executable voronoi_planner_node[0m
+[100%] Built target voronoi_planner_node
+-- Install configuration: ""
+-- Installing: /home/leon-wahl/Documents/fertige_version_von_rplidar_robo/robotik_master_volksbot/src/voronoi_planner_v/install/voronoi_planner_v/lib/voronoi_planner_v/voronoi_planner_node
+-- Set non-toolchain portion of runtime path of "/home/leon-wahl/Documents/fertige_version_von_rplidar_robo/robotik_master_volksbot/src/voronoi_planner_v/install/voronoi_planner_v/lib/voronoi_planner_v/voronoi_planner_node" to ""
+-- Installing: /home/leon-wahl/Documents/fertige_version_von_rplidar_robo/robotik_master_volksbot/src/voronoi_planner_v/install/voronoi_planner_v/share/ament_index/resource_index/package_run_dependencies/voronoi_planner_v
+-- Installing: /home/leon-wahl/Documents/fertige_version_von_rplidar_robo/robotik_master_volksbot/src/voronoi_planner_v/install/voronoi_planner_v/share/ament_index/resource_index/parent_prefix_path/voronoi_planner_v
+-- Installing: /home/leon-wahl/Documents/fertige_version_von_rplidar_robo/robotik_master_volksbot/src/voronoi_planner_v/install/voronoi_planner_v/share/voronoi_planner_v/environment/ament_prefix_path.sh
+-- Installing: /home/leon-wahl/Documents/fertige_version_von_rplidar_robo/robotik_master_volksbot/src/voronoi_planner_v/install/voronoi_planner_v/share/voronoi_planner_v/environment/ament_prefix_path.dsv
+-- Installing: /home/leon-wahl/Documents/fertige_version_von_rplidar_robo/robotik_master_volksbot/src/voronoi_planner_v/install/voronoi_planner_v/share/voronoi_planner_v/environment/path.sh
+-- Installing: /home/leon-wahl/Documents/fertige_version_von_rplidar_robo/robotik_master_volksbot/src/voronoi_planner_v/install/voronoi_planner_v/share/voronoi_planner_v/environment/path.dsv
+-- Installing: /home/leon-wahl/Documents/fertige_version_von_rplidar_robo/robotik_master_volksbot/src/voronoi_planner_v/install/voronoi_planner_v/share/voronoi_planner_v/local_setup.bash
+-- Installing: /home/leon-wahl/Documents/fertige_version_von_rplidar_robo/robotik_master_volksbot/src/voronoi_planner_v/install/voronoi_planner_v/share/voronoi_planner_v/local_setup.sh
+-- Installing: /home/leon-wahl/Documents/fertige_version_von_rplidar_robo/robotik_master_volksbot/src/voronoi_planner_v/install/voronoi_planner_v/share/voronoi_planner_v/local_setup.zsh
+-- Installing: /home/leon-wahl/Documents/fertige_version_von_rplidar_robo/robotik_master_volksbot/src/voronoi_planner_v/install/voronoi_planner_v/share/voronoi_planner_v/local_setup.dsv
+-- Installing: /home/leon-wahl/Documents/fertige_version_von_rplidar_robo/robotik_master_volksbot/src/voronoi_planner_v/install/voronoi_planner_v/share/voronoi_planner_v/package.dsv
+-- Installing: /home/leon-wahl/Documents/fertige_version_von_rplidar_robo/robotik_master_volksbot/src/voronoi_planner_v/install/voronoi_planner_v/share/ament_index/resource_index/packages/voronoi_planner_v
+-- Installing: /home/leon-wahl/Documents/fertige_version_von_rplidar_robo/robotik_master_volksbot/src/voronoi_planner_v/install/voronoi_planner_v/share/voronoi_planner_v/cmake/voronoi_planner_vConfig.cmake
+-- Installing: /home/leon-wahl/Documents/fertige_version_von_rplidar_robo/robotik_master_volksbot/src/voronoi_planner_v/install/voronoi_planner_v/share/voronoi_planner_v/cmake/voronoi_planner_vConfig-version.cmake
+-- Installing: /home/leon-wahl/Documents/fertige_version_von_rplidar_robo/robotik_master_volksbot/src/voronoi_planner_v/install/voronoi_planner_v/share/voronoi_planner_v/package.xml

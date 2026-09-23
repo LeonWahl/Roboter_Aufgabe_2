@@ -1,0 +1,79 @@
+{
+	"configurations" : 
+	[
+		{
+			"directories" : 
+			[
+				{
+					"build" : ".",
+					"hasInstallRule" : true,
+					"jsonFile" : "directory-.-b6d6ea039ae106c2258e.json",
+					"minimumCMakeVersion" : 
+					{
+						"string" : "3.20"
+					},
+					"projectIndex" : 0,
+					"source" : ".",
+					"targetIndexes" : 
+					[
+						0,
+						1,
+						2
+					]
+				}
+			],
+			"name" : "",
+			"projects" : 
+			[
+				{
+					"directoryIndexes" : 
+					[
+						0
+					],
+					"name" : "voronoi_planner_v",
+					"targetIndexes" : 
+					[
+						0,
+						1,
+						2
+					]
+				}
+			],
+			"targets" : 
+			[
+				{
+					"directoryIndex" : 0,
+					"id" : "uninstall::@6890427a1f51a3e7e1df",
+					"jsonFile" : "target-uninstall-32335c471bc8c186ff36.json",
+					"name" : "uninstall",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 0,
+					"id" : "voronoi_planner_node::@6890427a1f51a3e7e1df",
+					"jsonFile" : "target-voronoi_planner_node-f4f5e7c74ebf64b5237c.json",
+					"name" : "voronoi_planner_node",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 0,
+					"id" : "voronoi_planner_v_uninstall::@6890427a1f51a3e7e1df",
+					"jsonFile" : "target-voronoi_planner_v_uninstall-b3396ddb508c3b84dbcf.json",
+					"name" : "voronoi_planner_v_uninstall",
+					"projectIndex" : 0
+				}
+			]
+		}
+	],
+	"kind" : "codemodel",
+	"paths" : 
+	{
+		"build" : "/home/leon-wahl/Documents/fertige_version_von_rplidar_robo/robotik_master_volksbot/src/voronoi_planner_v/build/voronoi_planner_v",
+		"source" : "/home/leon-wahl/Documents/fertige_version_von_rplidar_robo/robotik_master_volksbot/src/voronoi_planner_v"
+	},
+	"version" : 
+	{
+		"major" : 2,
+		"minor" : 6
+	}
+}
