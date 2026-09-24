@@ -11,9 +11,6 @@ Aktuell nutzt es einen festen Map, der in `src/graph_provider.cpp` und `src/path
 
 - Datenstrukturen (Graph) definiert.
 - Suchalgorithmus (A*) gebaut.
-
-**Was ist zu machen?**
-
 - 2D-Rasterkarte daran einbinden
 - Tür-Logik programmieren
 - Roboter-Bewegung von Pfadfinder in /cmd_vel übersetzen
@@ -58,20 +55,23 @@ Aktuell nutzt es einen festen Map, der in `src/graph_provider.cpp` und `src/path
 
 ## Nützliche ROS 2 Befehle für dieses Projekt
 
-### 1. Workspace bauen & sourcen
+### Workspace bauen & sourcen
 ```bash
-cd ~/ros2_ws
+cd ~/robotik_master_volksbot #### oder jeden anderen Workspace, wo der Roboter ausgeführt werden soll
 colcon build --packages-select robotik_pfadplannung
 source install/setup.bash
 ```
 
-### 2. Nodes starten (in getrennten Terminals)
+### Nodes einzelnt starten (in getrennten Terminals)
 ```bash
 ros2 run robotik_pfadplannung graph_provider
 ros2 run robotik_pfadplannung path_planner
+ros2 run robotik_pfadplannung find_start_pose
+ros2 run robotik_pfadplannung path_follower
+ros2 run online_line_finder online_line_finder
 ```
 
-### 3. Services aufrufen & testen
+### Services aufrufen & testen
 
 #### Einen Pfad anfordern (Normalfall oder Umleitung):
 ```bash
@@ -88,9 +88,35 @@ ros2 service call /set_door_state robotik_pfadplannung/srv/SetDoorState "{door_n
 ros2 service call /set_door_state robotik_pfadplannung/srv/SetDoorState "{door_node_name: 'Flurtür_1', is_open: true}"
 ```
 
-### 4. System-Diagnose
+### System-Diagnose
 ```bash
 ros2 topic list                      # alle aktiven Datenströme
 ros2 node info /path_planner_node    # alle Verbindungen des Planers
 ros2 run rviz2 rviz2                 # weiter mit add, by topic, beide markers)
 ```
+
+### Aktevierung von allem
+
+```bash
+ros2 launch volksbot_bringup bringup.launch.py nav2:=false slam:=false lidar:=sick laser_yaw_offset:=0.0 wheel_radius:=0.13
+
+ros2 launch nav2_bringup bringup_launch.py map:=/home/robot/robotik_master_volksbot/src/meine_karte2.yaml
+
+ros2 run rviz2 rviz2 -d /opt/ros/jazzy/share/nav2_bringup/rviz/nav2_default_view.rviz
+
+### Zur Orientierung in dem Raum
+ros2 run teleop_twist_keyboard teleop_twist_keyboard
+
+ros2 launch robotik_pfadplannung system.launch.py
+### Als erstes aktevieren, um den roboter auf dem Startpunkt zu fahren. Wenn er dies erreicht hat, wieder abschalten und den "path_follower" aktevieren
+ros2 run robotik_pfadplannung find_start_pose
+
+ros2 run robotik_pfadplannung path_follower
+
+ros2 service call /get_path robotik_pfadplannung/srv/GetPath "{start_node_name: 'Raum_1', target_node_name: 'Raum_2'}"
+
+```
+
+### Karte und weiteres
+- Die Karte "meine_karte2" wurde davor aufgenommen durch slam und nav2. Dabei wurde das durch das Workspace "robotik_master_volksbot " aufgenommen, welche zu vor für den Roboter mit dem "Sick" Lidar passend angepasst wurde und dabei durch vorherigen Teile und eigenen anpassungen an den configs zusammengebaut wurde. Der eigentliche Code den der Roboter vom robotik_pfadplannung zu verfügung gestellt wurde und des online_line_finder, sowie der voronoi_planner_v sind die Codeteile die für den Aufgabe_2 verlangtworden sind, welche erfüllt werden. Dabei muss gesagt werden, dass die Codes nur für Ros2 Jazzy funktionell geklapt haben und für ander Distribotionen es keine gewehr gibt, sowie Teile vom Code nur erweiterte Anpassungen von dem im Unterricht erstellten Code sind und von bereits existierenden git Repos sind.
+
