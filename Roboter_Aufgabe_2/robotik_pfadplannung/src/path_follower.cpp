@@ -122,7 +122,7 @@ private:
             cmd.angular.z = std::clamp(0.8 * angle_error, -1.0, 1.0);
             cmd.linear.x = 0.0;
         } else {
-            //Genauere aus Richtung, wenn der Roboter gron ausgerichtet ist
+            //Genauere Ausrichtung, wenn der Roboter grob ausgerichtet ist
             cmd.angular.z = std::clamp(0.5 * angle_error, -1.0, 1.0);
             cmd.linear.x = std::min(0.2, distance);
         }
