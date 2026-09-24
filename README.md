@@ -1,7 +1,7 @@
 #               Thema 2 – Schienenverkehr: Topologisches Planen
 ### Autonome Navigation auf topologischen Graphen mit maximaler Hindernisvermeidung
 
-                                                     [unsere Namen]
+                                                     [Vladyslav, Boris, Leon]
                                                  [Robotik, SoSe 2026]
 
 ##    Problemspezifikation
