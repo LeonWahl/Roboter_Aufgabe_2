@@ -35,9 +35,9 @@ robotik_pfadplannung
      |__src
           |__a_star_solver       #// Ist der A* Algorithmus aber selbst erstellt
           |__find_start_pose     #// Ist dazu verantwortlich, das es genau zum Startpunkt fährt
-          |__graph_provider      #//
+          |__graph_provider      #// Ist für topologische Sicht in RVIZ2 verantwortlich
           |__path_follower       #// Ist dazu da, dass der Roboter der Topologie verfolgt
-          |__path_planner        #//
+          |__path_planner        #// Ist für die Führung des Roboters über die Edges verantwortlich
 
 ```
 
