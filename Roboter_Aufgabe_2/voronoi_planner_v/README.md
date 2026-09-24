@@ -1,4 +1,8 @@
-## Aktevierung des voronoi_planner's
+## Was macht der voronoi_planner_v
+
+Der voronoi_planner_v erstellt auf der Map einen grünen Pfad, welcher die maximalen Abstände zu Hindernissen zeigt bzw. den mittlern durchfahrt da durch
+
+## Aktevierung des voronoi_planner_v's
 
 als erstes
 ```bash
