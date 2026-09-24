@@ -29,7 +29,7 @@ public:
 
     RCLCPP_INFO(this->get_logger(), "Waiting for AMCL pose...");
   }
-    //ssagt ob die Pose erhalten wurde 
+    //sagt ob die Pose erhalten wurde 
   bool hasPose() const
   {
     
