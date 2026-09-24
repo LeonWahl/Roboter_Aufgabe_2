@@ -64,11 +64,13 @@ source install/setup.bash
 
 ### Nodes einzelnt starten (in getrennten Terminals)
 ```bash
-ros2 run robotik_pfadplannung graph_provider
-ros2 run robotik_pfadplannung path_planner
 ros2 run robotik_pfadplannung find_start_pose
 ros2 run robotik_pfadplannung path_follower
-ros2 run online_line_finder online_line_finder
+ros2 run online_line_finder online_line_finder  //Optional, nur wichtig für die Türaktivität
+```
+### Launch files einzelnt starten (in gerennten Terminals)
+```bash
+ros2 launch robotik_pfadplannung system.launch.py
 ```
 
 ### Services aufrufen & testen
