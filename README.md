@@ -14,7 +14,7 @@ Die Aufgabe: Entwicklung eines autonomen Navigationssystems für ein komplettes 
     Sicherheitsabstand: Optimierung des Abstands zu allen Wänden und Hindernissen während der Fahrt, um Kollisionen zu verhindern.
 
 
-    Aufgabenaufteilung
+##    Aufgabenaufteilung
 
 
 Vladyslav: Graph & Pfadplannung & A*-Algorithm
@@ -23,21 +23,8 @@ Boris: Online-Linienfinder & Voronoi-Planner & Kommentierung
 
 Leon: Mapping & Pfadplannung & Online-Linienfinder & Voronoi-Planner & Übersetzungen und Verfeinerungen
 
-    Projektstruktur
+ ##   Projektcode Aufgaben
 
-online_line_finder
-└── src/                        # // TO
+online_line_finder              # // Ist die umgebaute Variante aus dem Unterricht, die jetzt auch dazu verwendet wird zu sagen, ob eine Tür offen oder geschlossen ist
 
-robotik_pfadplannung/
-├── config/                     # // TODO
-├── include/
-   └── robotik_pfadplannung/    # // TODO
-├── launch/                     # // TODO
-├── msg/                        # // TODO
-└── src/                        # // TODO
-
-voronoi_planner_v
-├── build/                      # // TODO
-├── install/                    # // TODO
-├── log/                        # // TODO
-└── src/                        # // TODO
+voronoi_planner_v               # // Zum herausfinden des Maximalen Abstands
