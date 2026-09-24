@@ -124,4 +124,5 @@ ros2 service call /get_path robotik_pfadplannung/srv/GetPath "{start_node_name: 
 ### Links zu Repos, die beim erstellen geholfen haben
 
 - path_follower   #//https://github.com/gabrielnhn/ros2-line-follower/blob/main/follower/follower/follower_node.py
-- find_start_pose   #//
+- find_start_pose   #//https://github.com/ros-navigation/navigation2/blob/main/nav2_simple_commander/nav2_simple_commander/robot_navigator.py
+- voronio_planner_v   #//https://github.com/nkuwenjian/voronoi_planner/tree/noetic-devel/voronoi_planner
