@@ -83,7 +83,7 @@ private:
         geometry_msgs::msg::TransformStamped tf;
         try {
             tf = tf_buffer_.lookupTransform("map", "base_link", tf2::TimePointZero);
-        } catch (...) {
+        } catch (...) { // Wir ignoriert, da das WLAN schlecht ist und zu Problemen führen kann
             return;
         }
 
