@@ -120,3 +120,8 @@ ros2 service call /get_path robotik_pfadplannung/srv/GetPath "{start_node_name: 
 ### Karte und weiteres
 - Die Karte "meine_karte2" wurde davor aufgenommen durch slam und nav2. Dabei wurde das durch das Workspace "robotik_master_volksbot " aufgenommen, welche zu vor für den Roboter mit dem "Sick" Lidar passend angepasst wurde und dabei durch vorherigen Teile und eigenen anpassungen an den configs zusammengebaut wurde. Der eigentliche Code den der Roboter vom robotik_pfadplannung zu verfügung gestellt wurde und des online_line_finder, sowie der voronoi_planner_v sind die Codeteile die für den Aufgabe_2 verlangtworden sind, welche erfüllt werden. Dabei muss gesagt werden, dass die Codes nur für Ros2 Jazzy funktionell geklapt haben und für ander Distribotionen es keine gewehr gibt, sowie Teile vom Code nur erweiterte Anpassungen von dem im Unterricht erstellten Code sind und von bereits existierenden git Repos sind.
 
+
+### Links zu Repos, die beim erstellen geholfen haben
+
+- path_follower   #//https://github.com/gabrielnhn/ros2-line-follower/blob/main/follower/follower/follower_node.py
+- find_start_pose   #//
