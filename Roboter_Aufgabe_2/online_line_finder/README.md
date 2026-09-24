@@ -9,3 +9,8 @@ ros2 run online_line_finder online_line_finder
 ```
 
 Diese kann bei bedarf auch in der launch file akteviert werden, da es eine zusätzliche Aufgabe ist, die nicht verlangt wurde aber funktioniert
+
+
+## Probleme
+
+- wenn das Netzwerk überlastet ist funktioniert es nicht richtig
