@@ -28,4 +28,9 @@ Dabei kann man, wenn man einen bestimmten Punkt haben möchte im Terminal
 ```bash
 ros2 topic echo /clicked_point
 ```
+oder wenn man alle haben möchte
+
+```bash
+cat ~/alle_voronoi_koordinaten.txt
+```
 eingeben und dann mit "Publish Point" sich die exakten Koordinaten der Punkte ausgeben lassen
