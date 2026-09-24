@@ -46,4 +46,4 @@ robotik_pfadplannung
 - Die Configs, die wichtig für die Aufgabe_2 dazugehören findet man im Roboter unter "~/robotik_master_volksbot/src/volksbot_bringup/config"
 
   
-nähereres dazu in den Ordnern unter Roboter_Aufgabe_2 in den einzelnen README.md's 
+näherere Infos zu Projekt zum Schinennetz für den Roboter findet man dazu in den Ordnern unter Roboter_Aufgabe_2 in den einzelnen README.md's
