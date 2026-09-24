@@ -21,7 +21,7 @@
  *    Dynamisches Kanten-Filtering (handleBlockedDoors) ermöglicht das Sperren von Kanten.
  * 
  * 3. WELCHES PROBLEM ES IM PROJEKT LÖST:
- *    Ermöglicht semantische Fahrbefehle ("Fahre von Raum_1_1 zu Studienraum")
+ *    Ermöglicht semantische Fahrbefehle ("Fahre von Roblab_1_1 zu Studienraum")
  *    und wandelt diskrete Knotenfolgen in fahrbare Koordinatentrajektorien um.
  */
 
