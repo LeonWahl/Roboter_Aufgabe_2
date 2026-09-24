@@ -49,7 +49,7 @@ Aktuell nutzt es einen festen Map, der in `src/graph_provider.cpp` und `src/path
 
 ### Custom-Schnittstellen (Interfaces)
 
-- `msg/GraphState.msg` -> Übertragung der Liste aktuell blockierter Räume/Türen zwischen Nodes
+- `msg/GraphState.msg` -> Übertragung der kompletten Topologischen Edges und Nodes
 - `srv/SetDoorState.srv` -> Service, um den Zustand einer Tür zu ändern
 - `srv/GetPath.srv` -> Hauptschnittstelle für den Roboter für Pfadsuchalgorithmus
 
@@ -95,7 +95,7 @@ ros2 node info /path_planner_node    # alle Verbindungen des Planers
 ros2 run rviz2 rviz2                 # weiter mit add, by topic, beide markers)
 ```
 
-### Aktevierung von allem
+### Aktivierung von allem
 
 ```bash
 ros2 launch volksbot_bringup bringup.launch.py nav2:=false slam:=false lidar:=sick laser_yaw_offset:=0.0 wheel_radius:=0.13
