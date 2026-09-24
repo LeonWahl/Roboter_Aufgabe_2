@@ -28,3 +28,8 @@ Leon: Mapping & Pfadplannung & Online-Linienfinder & Voronoi-Planner & Übersetz
 online_line_finder              # // Ist die umgebaute Variante aus dem Unterricht, die jetzt auch dazu verwendet wird zu sagen, ob eine Tür offen oder geschlossen ist
 
 voronoi_planner_v               # // Zum herausfinden des Maximalen Abstands
+
+
+
+
+nähereres dazu in den Ordnern unter Roboter_Aufgabe_2 in den einzelnen README.md's 
